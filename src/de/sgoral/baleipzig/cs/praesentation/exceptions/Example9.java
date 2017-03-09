@@ -1,4 +1,4 @@
-package de.sgoral.baleipzig.cs.praesentation.exceptions.part1;
+package de.sgoral.baleipzig.cs.praesentation.exceptions;
 
 import java.io.File;
 import java.io.IOException;

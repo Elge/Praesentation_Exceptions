@@ -1,4 +1,4 @@
-package de.sgoral.baleipzig.cs.praesentation.exceptions.part1;
+package de.sgoral.baleipzig.cs.praesentation.exceptions;
 
 import java.util.HashMap;
 
