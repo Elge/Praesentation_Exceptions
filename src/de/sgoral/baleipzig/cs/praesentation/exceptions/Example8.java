@@ -1,5 +1,8 @@
 package de.sgoral.baleipzig.cs.praesentation.exceptions;
 
+/**
+ * Beispiel für stacktrace
+ */
 public class Example8 {
 	
 	public static void main(String[] args) throws CustomException {

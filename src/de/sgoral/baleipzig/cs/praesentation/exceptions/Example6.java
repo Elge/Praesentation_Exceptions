@@ -1,5 +1,8 @@
 package de.sgoral.baleipzig.cs.praesentation.exceptions;
 
+/**
+ * Beispiel für catch der super Klasse
+ */
 public class Example6 {
 
 	public static void main(String[] args) {

@@ -1,5 +1,8 @@
 package de.sgoral.baleipzig.cs.praesentation.exceptions;
 
+/**
+ * Beispiel für finally
+ */
 public class Example3 {
 
 	public static void main(String[] args) {

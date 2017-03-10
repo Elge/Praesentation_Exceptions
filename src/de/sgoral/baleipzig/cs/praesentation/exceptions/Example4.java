@@ -1,5 +1,8 @@
 package de.sgoral.baleipzig.cs.praesentation.exceptions;
 
+/**
+ * Gegenbeispiel für finally
+ */
 public class Example4 {
 
 	public static void main(String[] args) {

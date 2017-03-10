@@ -1,22 +1,30 @@
 package de.sgoral.baleipzig.cs.praesentation.exceptions;
 
-import java.io.File;
-import java.io.IOException;
-
+/**
+ * Beispiel für multi catch
+ */
 public class Example9 {
 
-	public void translateFile(File original) {
-		File tempFile = null;
+	public static void main(String[] args) {
 		try {
-			tempFile = File.createTempFile("translate", "dest");
-			// Translate the file
-		} catch (IOException e) {
-			System.out.println("Cannot translate file");
-		} finally {
-			if (tempFile != null) {
-				tempFile.delete();
-			}
+			doSomethingVeryBad();
+		} catch (IllegalAccessException | IllegalArgumentException
+				| IllegalStateException e) {
+			System.out.println("Abgefangen: " + e);
 		}
+	}
+
+	public static void doSomethingVeryBad() throws IllegalAccessException, 
+			IllegalArgumentException, IllegalStateException {
+		double random = Math.random();
+		if (random < 0.333) {
+			throw new IllegalAccessException();
+		} else if (random > 0.666) {
+			throw new IllegalArgumentException();
+		} else {
+			throw new IllegalStateException();
+		}
+		
 	}
 	
 }
