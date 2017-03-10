@@ -5,8 +5,9 @@ package de.sgoral.baleipzig.cs.praesentation.exceptions;
  */
 public class Example1 {
 
-	public static void main(String[] args) throws Exception {
-		throw new Exception();
+	public static void main(String[] args) {
+		int error = 4 / 0;
+		System.out.println(error);
 	}
 	
 }
